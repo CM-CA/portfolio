@@ -1,0 +1,23 @@
+<div class="col-md-4 col-sm-6" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
+                <a class="mt-50" href="#">
+                    <img alt="" class="radius10 img-fluid"
+                         height="30%" src="{% static 'images/python.png' %}" width="30%"/>
+                    <div class="mt-20 mb-15 f-22 title">Python</div>
+
+
+                </a>
+            </div>
+             <div class="col-md-4 col-sm-6" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
+                <a class="mt-50" href="#">
+                    <img alt="" class="radius10 img-fluid"
+                         height="30%" src="{% static 'images/javascript.png' %}" width="30%"/>
+                    <div class="mt-20 mb-15 f-22 title">JavaScript</div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
+                <a class="mt-50" href="#">
+                    <img alt="" class="radius10 img-fluid"
+                         height="30%" src="{% static 'images/javascript.png' %}" width="30%"/>
+                    <div class="mt-20 mb-15 f-22 title">JavaScript</div>
+                </a>
+            </div>
