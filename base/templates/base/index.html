@@ -39,7 +39,7 @@
             </div>
             <div class="col-lg-2 pt-20" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
                 <a class="link color-main mx-15" href="{% url 'home' %}">Home</a>
-                <a class="link color-main mx-15" href="{% url 'blog' %}" onclick="return false;">Blog</a>
+               <!-- <a class="link color-main mx-15" href="{% url 'blog' %}" onclick="return false;">Blog</a> -->
             </div>
 
         </div>
@@ -55,9 +55,9 @@
                 <div class="pt-0 pb-10">
                     <a href="#webcontent">
 
-                      <img alt="Yo" data-aos="fade-down" class="img-fluid img-thumbnail mx-auto d-block"
+                      <img data-aos="fade-down" class="img-fluid img-thumbnail mx-auto d-block"
                              data-aos-delay="15" data-aos-duration="2000" src="{% static 'images/actual_me.jpg' %}"
-                             height="350px" width="350px" style="border-radius:150px;">
+                             height="350px" width="350px" style="border-radius:150px;" alt="Yo">
 
                     </a>
                 </div>
@@ -259,7 +259,7 @@
             </div>
             <div class="mb-10 mb-lg-0 col-sm-4 order-0" data-aos="fade-down" data-aos-delay="0"
                  data-aos-duration="600">
-                <a href="https://www.buymeacoffee.com/Cmca" target="_blank"><img
+                <a href="https://www.buymeacoffee.com/Cmca" target="_blank" rel="noopener"><img
                         alt="Buy Me A Coffee" src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
                         style="height: 51px !important;width: 217px !important;"></a>
             </div>
