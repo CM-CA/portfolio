@@ -29,16 +29,17 @@
 <body>
 <!-- Navigation 1 -->
 
-<nav class="navigation_1 bg-light pt-30 pb-10 text-center">
+<nav class="navigation_1 bg-light pt-30 pb-10 text-center" >
     <div class="container px-xl-0">
 
-        <div class="row justify-content-center align-items-center f-16">
+        <div class="row justify-content-center align-items-center f-16 nav-item">
             <div class="row justify-content-center align-items-center text-lg-left pt-20" data-aos="fade-down"
                  data-aos-delay="300" data-aos-duration="600">
                 <a class="logo link color-main" href="https://github.com/CM-CA">CM-CA</a>
             </div>
-            <div class="col-lg-2 pt-20" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
-                <a class="link color-main mx-15" href="{% url 'home' %}">Home</a>
+            <div class="col-lg-12 pt-40 pb-0 nav-item" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
+                <a href="#" class="scroll-to-top"><span class="glyphicon glyphicon-arrow-up"></span><span class="sr-only">Ir arriba</span></a>
+                <a class="mx-15 link color-main" href="{% url 'home' %}" aria-hidden="true"><i class="fa fa-home" aria-hidden="true"></i> </a>
                <!-- <a class="link color-main mx-15" href="{% url 'blog' %}" onclick="return false;">Blog</a> -->
             </div>
 
@@ -62,7 +63,7 @@
                     </a>
                 </div>
                 <h2 class="small pt-20" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
-                     Programador <br/> y <br/> Desarrollador Web
+                    <p>  Programador <br/> y <br/> Desarrollador Web</p>
                 </h2>
 
                 <div class="mt-35 mb-65 f-22 color-heading text-adaptive description pt-20 pb-10" data-aos="fade-down"
