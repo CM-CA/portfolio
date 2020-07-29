@@ -29,7 +29,7 @@
 <body>
 <!-- Navigation 1 -->
 
-<nav class="navigation_1 bg-light pt-30 pb-10 text-center" >
+<!--<nav class="navigation_1 bg-light pt-30 pb-10 text-center" >
     <div class="container px-xl-0">
 
         <div class="row justify-content-center align-items-center f-16 nav-item">
@@ -37,15 +37,42 @@
                  data-aos-delay="300" data-aos-duration="600">
                 <a class="logo link color-main" href="https://github.com/CM-CA">CM-CA</a>
             </div>
-            <div class="col-lg-12 pt-40 pb-0 nav-item" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
-                <a href="#" class="scroll-to-top"><span class="glyphicon glyphicon-arrow-up"></span><span class="sr-only">Ir arriba</span></a>
+
+            <div class="col-lg-3 content-center pt-40 pb-0 nav-item" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
+
                 <a class="mx-15 link color-main" href="{% url 'home' %}" aria-hidden="true"><i class="fa fa-home" aria-hidden="true"></i> </a>
-               <!-- <a class="link color-main mx-15" href="{% url 'blog' %}" onclick="return false;">Blog</a> -->
+              <a class="link color-main mx-15" href="{% url 'blog' %}" onclick="return false;">Blog</a>
             </div>
 
         </div>
     </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+    <button aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbarsExample10" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="mt-10">
+        <a class="nav-items-start" ><img height="40" src="{% static 'images/logo.png' %}" width="40">CM-CA<span
+                class="sr-only"></span></a>
+
+    </div>
+    <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample10">
+        <ul class="navbar-nav">
+
+            <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                   id="dropdown10">Contact</a>
+                <div aria-labelledby="dropdown10" class="dropdown-menu">
+                    <a class="dropdown-item" href="#">E-mail</a>
+                    <a class="dropdown-item" href="#">Teléfono</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 </nav>
+
 
 <!-- Feature 2 -->
 
@@ -56,14 +83,15 @@
                 <div class="pt-0 pb-10">
                     <a href="#webcontent">
 
-                      <img data-aos="fade-down" class="img-fluid img-thumbnail mx-auto d-block"
-                             data-aos-delay="15" data-aos-duration="2000" src="{% static 'images/actual_me.jpg' %}"
-                             height="350px" width="350px" style="border-radius:150px;" alt="Yo">
+                        <img alt="Yo" class="img-fluid img-thumbnail mx-auto d-block"
+                             data-aos="fade-down" data-aos-delay="15" data-aos-duration="2000"
+                             height="350px" src="{% static 'images/actual_me.jpg' %}" style="border-radius:150px;"
+                             width="350px">
 
                     </a>
                 </div>
                 <h2 class="small pt-20" data-aos="fade-down" data-aos-delay="0" data-aos-duration="600">
-                    <p>  Programador <br/> y <br/> Desarrollador Web</p>
+                    <p> Programador <br/> y <br/> Desarrollador Web</p>
                 </h2>
 
                 <div class="mt-35 mb-65 f-22 color-heading text-adaptive description pt-20 pb-10" data-aos="fade-down"
@@ -116,7 +144,7 @@
                          data-aos-duration="600">
                         <div class="mb-20 f-18 medium title">Lenguajes Conocidos</div>
                         <div class="color-heading text-adaptive">
-                            <ul class="list-group">
+                            <ul class="list-group" style="">
                                 <li class="list-group-item d-flex justify-content-between align-items-center">Java
                                     <div class="image-parent">
                                         <img alt="java" class="img-fluid" height="35"
@@ -260,7 +288,7 @@
             </div>
             <div class="mb-10 mb-lg-0 col-sm-4 order-0" data-aos="fade-down" data-aos-delay="0"
                  data-aos-duration="600">
-                <a href="https://www.buymeacoffee.com/Cmca" target="_blank" rel="noopener"><img
+                <a href="https://www.buymeacoffee.com/Cmca" rel="noopener" target="_blank"><img
                         alt="Buy Me A Coffee" src="https://cdn.buymeacoffee.com/buttons/default-orange.png"
                         style="height: 51px !important;width: 217px !important;"></a>
             </div>
